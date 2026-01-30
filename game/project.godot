@@ -10,10 +10,22 @@ config_version=5
 
 [application]
 
-config/name="Puzzled-Growth"
-config/features=PackedStringArray("4.5", "Mobile")
+config/name="Puzzled Growth"
+run/main_scene="uid://hu23k2tacrli"
+config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=800
+window/size/viewport_height=600
+window/stretch/mode="viewport"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
 
 [rendering]
 
+rendering_device/driver.windows="d3d12"
 renderer/rendering_method="mobile"

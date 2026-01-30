@@ -16,6 +16,7 @@ data_*/
 mono_crash.*.json
 
 *.png~
+*.kra~
 *.swp
 .DS_Store
 release/
